@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">  
+    <title>Todo List</title>
+    <link rel="stylesheet" href="td.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="td.css">
+  </head>
+  <body>
+    <div class="outer">
+      <div class="todo-input">
+        <img src="todo-list.png" class="todo-icon" alt="icon">
+        <input type="text" placeholder="Add a new task">
+      </div>
+      <div class="controls">
+        <div class="filters">
+          <span class="active" id="all">All</span>
+          <span id="pending">Pending</span>
+          <span id="completed">Finished</span>
+        </div>
+        <button class="clear-btn">Delete All todos</button>
+      </div> 
+      <ul class="todo-box"></ul>
+    </div>
+
+    <script src="td.js"></script>
+
+  </body>
+</html>
